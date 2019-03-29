@@ -1,0 +1,345 @@
+@import url(reset.css);
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+	width: 100%;
+	max-width: 90rem;
+	margin: 0 auto;
+}
+
+* {
+	box-sizing: border-box;	
+}
+
+h1, h2, .works p, .container p, .text p, button, li, .description p, .contact p, .photo span {
+    font-family: 'Inconsolata', monospace;
+}
+
+header p, h3, h4 {
+    font-family: 'Prata', serif;
+}
+
+/*------------------------------Header------------------------------------*/
+header div {
+    height: 52.5rem;
+    float: left;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.first {
+    width: 50%;
+    background: #003170 url(img/h.svg) 10% 80% no-repeat;
+    background-size: 30rem;
+}
+
+.second {
+    width: 25%;
+    background: #75e3dd url(img/d.svg) 46% 87% no-repeat;
+    background-size: 24rem;
+}
+
+.third {
+    width: 25%;
+    background: #f4979c url(img/p.svg) 30% 87% no-repeat;
+    background-size: 19rem;
+}
+
+.first h1, .second h2, .third h2{
+    text-align: right;
+    position: absolute;
+}
+
+.first p, .first h1 {
+    color: #fff;
+    position: absolute;
+    right: 4rem;
+}
+
+.first p{
+    bottom: 8rem;
+    font-size: 13.6rem;
+    border-bottom: .6rem solid #fff;
+}
+
+.first h1, .second h2, .third h2 {
+    bottom: 3.5rem;
+}
+
+.second h2 {
+    color: #046866;
+    left: 2.8rem;
+}
+
+.third h2 {
+    color: #c4454e;
+    left: 4.5rem;
+}
+
+h1, h2 {
+    font-size: 1.5rem;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.8rem;
+    padding-right: 2rem;
+}
+
+nav ul {
+    margin-top: 2.3rem;
+    margin-left: 4.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #41ccc4;
+}
+
+/*------------------------------------Works--------------------------------------*/
+div .photo, div .text{
+    height: 50rem; 
+    width: 50%;
+    float: left;
+}
+
+.photo {
+    position: relative;
+}
+
+.photo img{
+    height: 100%;
+}
+
+.pineapp .photo {
+    background: url(img/pineapp.jpg) right top;
+}
+
+.dining .photo {
+    background: url(img/healthydining.jpg) right top;
+}
+
+.city .photo {
+    background: url(img/smartcity.jpg) right top;
+}
+
+.works h3 {
+    color: #41ccc4;
+    padding-bottom: 4remx;
+}
+
+h3 {
+    font-size: 6.6rem;
+}
+
+.container p {
+    color: #2864b1;
+}
+
+.pineapp .text, .city .text {
+    padding-top: 3rem;
+    padding-left: 4rem;  
+}
+
+.dining .text {
+    padding-top: 3rem;
+    padding-left: 10.5rem;
+}
+
+.scroll {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.pineapp .photo span, .city .photo span, .dining .photo span {
+    display: inline-block;
+    background-color: #71e2dc; 
+    position: absolute;
+}
+
+.pineapp .photo span, .city .photo span {
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    top: 22rem;
+    left: -.8rem;
+}
+
+.dining .photo span {
+    transform: rotate(90deg); 
+    transform-origin: center right;
+    left: 16rem;
+    top: 24.4rem;
+}
+
+.photo span {
+    font-size: 3.3rem;
+}
+
+.city {
+    margin-bottom: 4rem;
+}
+
+/*-------------------------------Team---------------------------------*/ 
+.team .photo, .team article {
+    height: 72.9rem;
+}
+
+.team .photo {
+    background: url(img/team.jpg);
+    width: 50%;
+    position: absolute;
+    left: 0;
+}
+
+.team .text {
+    float: right;
+    padding-left: 3rem;
+}
+
+.description {
+    position: relative;
+    width: 50%; 
+    float: left;
+    top: 4rem;
+    line-height: 1.5;
+}
+
+.team h3 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #003170;
+} 
+
+.text h4, .photo span {
+    color: #16736e;
+    margin-bottom: 1rem;
+}
+
+.text p {
+    font-size: 1.7rem;
+    color: #16736e;
+}
+
+.text h4 {
+    font-size: 4.7rem;
+    margin-bottom: 2.5rem;
+}
+
+.team p {
+    padding-bottom: 2rem;
+    font-size: 1.45rem;
+}
+
+.team h4 {
+    padding-top: 2rem;
+    color: #306fbf;
+}
+
+li {
+    font-size: 1.45rem;
+    color: #16736e;
+}
+
+.description p {
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+.text button {
+    font-size: 2.1rem;
+    color: #00d8d0;
+    text-transform: uppercase;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: -.5rem;
+    border-color: transparent;
+} 
+
+.team {
+    clear: both;
+}
+
+/* -------------------------------Contact-------------------------------------*/
+.contact {
+    clear: both;
+}
+
+.contact .form, .contact .text {
+    height: 30rem;
+    width: 50%;
+    float: left;
+}
+
+.contact .text img {
+    float: left;
+    width: 25rem;
+    margin-right: 2rem;
+}
+
+
+
+.contact .form p {
+    color: #f3747b;
+}
+
+.contact .form p {
+    font-size: 1.4rem;
+    padding-top: 3rem;
+}
+
+.contact .text p {
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+.contact .text p:last-of-type {
+    font-weight: bold;
+}
+
+.contact h3 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #f3747b;
+}
+
+input {
+    border-bottom: .4rem solid #f3747b;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: #420e73;
+    padding-top: 1rem;
+    box-shadow: none;
+    width: 35rem;
+}
+
+/*------------------------------------Footer------------------------------------------*/
+footer {
+    height: 20rem;
+    clear: both;
+    background: #f4979c url(img/socialmedia.svg) center 85px no-repeat;
+    background-size: 90rem; 
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer img{
+    width: 5.5rem;
+    margin: 2rem;
+}
+
+.social {
+	text-align: center;
+    padding-top: 4.5rem;
+}
+
