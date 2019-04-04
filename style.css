@@ -14,7 +14,7 @@ html {
 	box-sizing: border-box;	
 }
 
-h1, h2, .works p, .container p, .text p, button, li, .description p, .contact p, .photo span {
+h1, h2, .works p, .container p, .text p, button, li, .description p, .contact p, footer p, .photo span {
     font-family: 'Inconsolata', monospace;
 }
 
@@ -282,8 +282,6 @@ li {
     margin-right: 2rem;
 }
 
-
-
 .contact .form p {
     color: #f3747b;
 }
@@ -341,5 +339,14 @@ footer img{
 .social {
 	text-align: center;
     padding-top: 4.5rem;
+}
+
+footer .container p {
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: left;
+    padding-left: 2.5rem;
+    padding-top: .2rem;
+    line-height: 2rem;
 }
 
